@@ -11,7 +11,7 @@ const StarsCanvasWrapper = dynamic(() => import('../components/main/starBackgrou
 });
 
 export const metadata: Metadata = {
-  title: "Adrian's Portfolio",
+  title: "Saad's Portfolio",
   description: "Modern & Minimal JS Mastery Portfolio",
 };
 
@@ -32,7 +32,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <StarsCanvasWrapper />
+          {/* <StarsCanvasWrapper /> */}
           {children}
         </ThemeProvider>
       </body>
