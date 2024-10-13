@@ -32,7 +32,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <StarsCanvasWrapper />
+          {/* <StarsCanvasWrapper /> */}
           {children}
         </ThemeProvider>
       </body>
