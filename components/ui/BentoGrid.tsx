@@ -124,7 +124,7 @@ export const BentoGridItem = ({
                         </div>
                     )}
                     {id === 6 && (
-                        <div className="mt-5 relative ">
+                        <div className="mt-5 relative z-10">
                             <div className={`absolute -bottom-5 right-0`}>
                             <Lottie options={{
                                 loop : copied,

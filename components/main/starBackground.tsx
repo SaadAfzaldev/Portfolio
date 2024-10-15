@@ -1,4 +1,5 @@
 "use client"
+
 import React, { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial } from "@react-three/drei";
@@ -27,7 +28,7 @@ const StarBackground = (props: any) => {
             >
                 <PointMaterial
                     transparent
-                    color="#fff" // Change this if necessary
+                    color="#fff"
                     size={0.002}
                     sizeAttenuation={true}
                     depthWrite={false}
@@ -48,6 +49,5 @@ const StarsCanvas = () => (
 );
 
 export default StarsCanvas;
-
 
 

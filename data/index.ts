@@ -206,6 +206,7 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+       
     },
     {
       id: 2,
