@@ -15,16 +15,13 @@ export const metadata: Metadata = {
   description: "Modern & Minimal",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <head>
-        <link rel="icon" sizes="any" />
-      </head>
+        <title>{"Saad's Portfolio"}</title> {/* Add title here */}
+        <meta name="description" content={"Modern & Minimal"} /> {/* Add description meta tag */}
+        </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -39,4 +36,3 @@ export default function RootLayout({
     </html>
   );
 }
-
