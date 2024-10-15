@@ -11,17 +11,18 @@ const StarsCanvasWrapper = dynamic(() => import('../components/main/starBackgrou
 });
 
 export const metadata: Metadata = {
-  title: "Saad's Portfolio",
-  description: "Modern & Minimal",
+  title: "Saad's Portfolio - Modern & Minimal Design",
+  description: "Showcasing my work in web development and design.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en"> {/* Ensure lang attribute is set here */}
       <head>
-        <title>{"Saad's Portfolio"}</title> {/* Add title here */}
-        <meta name="description" content={"Modern & Minimal"} /> {/* Add description meta tag */}
-        </head>
+        <title>{"Saad's Portfolio - Modern & Minimal Design"}</title>
+        <meta name="description" content={"Showcasing my work in web development and design"} />
+        <link rel="icon" href="/path/to/favicon.ico" sizes="any" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
