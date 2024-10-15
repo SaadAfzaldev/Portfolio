@@ -6,16 +6,16 @@ import MagicButton from "./MagicButton";
 const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10 mb-[100px] md:mb-5" id="contact">
-        <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw] text-6xl">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+        <div className="flex flex-col items-center relative z-10">
+          <h1 className="heading lg:max-w-[45vw] text-6xl">
+            Ready to take <span className="text-purple">your</span> digital
+            presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center text-3xl">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+            Reach out to me today and let&apos;s discuss how I can help you
+            achieve your goals.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:contactsaaddevtec@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -28,7 +28,7 @@ const Footer = () => {
           Copyright © 2024 Saad
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 relative z-10">
           {socialMedia.map((info) => (
             <div
               key={info.id}
