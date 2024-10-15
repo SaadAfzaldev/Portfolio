@@ -12,7 +12,7 @@ const StarsCanvasWrapper = dynamic(() => import('../components/main/starBackgrou
 
 export const metadata: Metadata = {
   title: "Saad's Portfolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  description: "Modern & Minimal",
 };
 
 export default function RootLayout({
