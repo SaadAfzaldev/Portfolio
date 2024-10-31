@@ -81,11 +81,11 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      title: "music school application",
+      des: "Discover your musical talent with personalized lessons in piano, guitar, violin, and voice. Join us for a fun and supportive learning experience!" ,
+      img: "/musicschool.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/coming",
+      link: "https://musicschool-nine.vercel.app/",
     },
     {
       id: 3,
